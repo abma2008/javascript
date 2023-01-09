@@ -1,4 +1,0 @@
-#Adding a new file because this one is for checking purposes:
-I am adding this to see if I will be given the option of merging the branch
-with the master.
-please if it works.... Keep trying until this concept is fully understand.
