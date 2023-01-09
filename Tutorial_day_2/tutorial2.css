@@ -37,3 +37,8 @@ header .navbar ul li a{
 header .navbar ul li a:hover{
     background-color:azure;
 }
+
+form {
+    width: 50%;
+    margin: 0 auto;
+}
