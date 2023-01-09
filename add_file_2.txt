@@ -1,0 +1,6 @@
+# Adding a second file to see if it will work or not:
+please make sure this one is working normally.
+I am trying to understand the process because it is getting a little annoying
+because the more I delay working on git and github, the less my chances will
+be for achieving any futuristic understanding.
+I hope this one works as planned...
