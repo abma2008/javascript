@@ -42,3 +42,11 @@ form {
     width: 50%;
     margin: 0 auto;
 }
+
+#displaytime {
+    width: 50%;
+    margin: 0 auto;
+    background-color: orange;
+    color: black;
+    margin-top: 10px;
+}

@@ -10,7 +10,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- This is where we will be setting the link for our local file tutorial.css -->
-    <link rel="stylesheet" href="./tutorial2.css">
+    <link rel="stylesheet" href="./tutorial3.css">
     <title>Tutorial JavaScript Day 2 Tutorial 2</title>
 </head>
 <body>
@@ -28,15 +28,16 @@
         </div>
     </header>
     <div class="container">
+        <p id="displaytime"></p>
         <p>
-            <form action="" method="GET">
+            <form action="" method="GET" autocomplete="off">
                 <div class="formgroup-control">
                     <label for="number1">Number 1:</label>
-                    <input type="decimal" id="number1" placeholder="Enter Number 1" class="form-control">
+                    <input type="decimal" id="number1" placeholder="Enter Number 1" class="form-control" required>
                 </div>
                 <div class="formgroup-control">
                     <label for="number2">Number 2:</label>
-                    <input type="decimal" id="number2" placeholder="Enter Number 1" class="form-control">
+                    <input type="decimal" id="number2" placeholder="Enter Number 1" class="form-control" required>
                 </div>
                 <button id="submit" type="submit" class="btn btn-outline-primary form-control">Check</button>
 
@@ -47,6 +48,6 @@
 
     <!-- This is the part where we will be adding the link 
     To our tutorial1.js file -->
-    <script src="./tutorial2.js"></script>
+    <script src="./tutorial3.js"></script>
 </body>
 </html>
