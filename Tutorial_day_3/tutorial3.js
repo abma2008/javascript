@@ -24,16 +24,20 @@ const button = document.getElementById(`submit`);
 button.addEventListener(`click`, function(e){
     e.preventDefault();
     // Checking the two values to avoid errors:
-    // calculate the two numbers above:
-    try {
-        let result = parseFloat(number1.value) + parseFloat(number2.value);
-        alert(`The Additional Result = ${result}`);
-        
+    
+            // calculate the two numbers above:
+        try {
+            let result = parseFloat(number1.value) + parseFloat(number2.value);
+            alert(`The Additional Result = ${result}`);
+            
+            
+        }
+        catch {
+            alert(`Something went wrong, please try again`)
         
     }
-    catch {
-        alert(`Something went wrong, please try again`)
+    console.log(typeof(number1.value))
+    console.log(typeof(number2.value))
     
-}
     
 });
