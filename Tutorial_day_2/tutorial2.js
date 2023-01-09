@@ -7,3 +7,22 @@ to see how far you can reach in this tutorial.
 Best of luck
 */
 
+
+const number1 = document.getElementById(`number1`);
+const number2 = document.getElementById(`number2`);
+
+const button = document.getElementById(`submit`);
+
+button.addEventListener(`click`, function(e){
+    e.preventDefault();
+    // calculate the two numbers above:
+    try {
+        let result = parseFloat(number1.value) + parseFloat(number2.value);
+        alert(`you will be viewing the results after clicking ok`);
+        alert(result)
+        
+    }
+    catch {
+        alert(`Something went wrong, please try again`)
+    }
+})
