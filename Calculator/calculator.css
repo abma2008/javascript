@@ -1,0 +1,64 @@
+/* Adding some Css Style for tutorial2.html page */
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    background-color:aliceblue;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:none;
+    font-size:large;
+}
+
+header .logo {
+    display:flex;
+    align-items: center;
+    margin:5px;
+}
+
+header .navbar ul {
+    display:flex;
+    justify-content: space;
+    align-items: center;
+}
+header .navbar ul li {
+    display: inline-block;
+    margin:10px;
+
+}
+header .navbar ul li a{
+    text-decoration: none;
+}
+header .navbar ul li a:hover{
+    color: brown;
+}
+
+form {
+    width: 50%;
+    margin: 0 auto;
+    box-shadow:2px 2px 2px 2px;
+    padding: 10px;
+
+}
+.container {
+    display:flex;
+    position:relative;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+.container form > * {
+    margin: 10px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+}
+.container .image img {
+    width: 100%;
+}
